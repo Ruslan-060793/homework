@@ -23,7 +23,7 @@ struct ContentView: View {
             HStack {
                 Text("0").bold().foregroundColor(Color("TextColor"))
                 Slider(value: self.$sliderValue, in: 1.0...100.0)
-                Text("100").bold().foregroundColor(Color("TextColor"))
+                Text("105").bold().foregroundColor(Color("TextColor"))
             }.padding()
             
             Button(action: {self.alertIsVisiable = true}) {
